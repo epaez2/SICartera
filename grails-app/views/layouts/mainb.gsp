@@ -53,38 +53,35 @@
             <hr>
 
             <ul class="nav nav-stacked">
-                <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Settings <i class="glyphicon glyphicon-chevron-down"></i></a>
+                <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Gestion de cartera <i class="glyphicon glyphicon-chevron-down"></i></a>
                     <ul class="nav nav-stacked collapse in" id="userMenu">
-                        <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages <span class="badge badge-info">4</span></a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Shoutbox</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> Staff List</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-flag"></i> Transactions</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Rules</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
+                        <li class="active"> <a href="/SICartera/"><i class="glyphicon glyphicon-home"></i>Inicio</a></li>
+                        <li><a href="/SICartera/Deudor/create"><i class="glyphicon glyphicon-envelope"></i> Crear Deudores <span class="badge badge-info">4</span></a></li>
+                        <li><a href="/SICartera/Obligacion/Create"><i class="glyphicon glyphicon-cog"></i> Crear Obligaciones</a></li>
+                        <li><a href="/SICartera/Gestion"><i class="glyphicon glyphicon-comment"></i> Realizar Gestion</a></li>
+                        
                     </ul>
                 </li>
-                <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2"> Reports <i class="glyphicon glyphicon-chevron-right"></i></a>
+                <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2"> Administracion <i class="glyphicon glyphicon-chevron-right"></i></a>
 
                     <ul class="nav nav-stacked collapse" id="menu2">
-                        <li><a href="#">Information &amp; Stats</a>
+                        <li><a href="/SICartera/Usuario">Usuarios</a>
                         </li>
-                        <li><a href="#">Views</a>
+                        <li><a href="/SICartera/Opcion">Opciones</a>
                         </li>
-                        <li><a href="#">Requests</a>
+                        <li><a href="/SICartera/Operacion">Operacion</a>
                         </li>
-                        <li><a href="#">Timetable</a>
+                        <li><a href="/SICartera/Parametro">Administrar Parametros</a>
                         </li>
-                        <li><a href="#">Alerts</a>
+                        <li><a href="/SICartera/Rol">Generar Roles</a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-header">
-                    <a href="#" data-toggle="collapse" data-target="#menu3"> Social Media <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    <a href="#" data-toggle="collapse" data-target="#menu3"> Reportes <i class="glyphicon glyphicon-chevron-right"></i></a>
                     <ul class="nav nav-stacked collapse" id="menu3">
-                        <li><a href=""><i class="glyphicon glyphicon-circle"></i> Facebook</a></li>
-                        <li><a href=""><i class="glyphicon glyphicon-circle"></i> Twitter</a></li>
+                        <li><a href="/SICartera/Obligacion"><i class="glyphicon glyphicon-circle"></i> Reportes obligacion</a></li>
+                        <li><a href="/SICartera/Gestion"><i class="glyphicon glyphicon-circle"></i> Reporte de gestiones</a></li>
                     </ul>
                 </li>
             </ul>
